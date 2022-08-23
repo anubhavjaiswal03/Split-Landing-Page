@@ -82,7 +82,7 @@ h1 {
 			width: 100%;
 			height: 100%;
 			background-color: var(--left-bg-color);
-			transition: background-color var(--speed) ease-in-out;
+			// transition: background-color var(--speed) ease-in-out;
 		}
 		.btn {
 			&:hover {
@@ -103,7 +103,7 @@ h1 {
 			width: 100%;
 			height: 100%;
 			background-color: var(--right-bg-color);
-			transition: background-color var(--speed) ease-in-out;
+			// transition: background-color var(--speed) ease-in-out;
 		}
 		.btn {
 			&:hover {
@@ -118,9 +118,9 @@ h1 {
 .hover-left {
 	.left {
 		width: var(--hover-width);
-		&::before {
-			background-color: var(--left-bg-color-transparent);
-		}
+		// &::before {
+		// 	background-color: var(--left-bg-color-transparent);
+		// }
 	}
 	.right {
 		width: var(--other-width);
@@ -132,8 +132,8 @@ h1 {
 	}
 	.right {
 		width: var(--hover-width);
-		&::before {
-			background-color: var(--right-bg-color-transparent);
-		}
+		// &::before {
+		// 	background-color: var(--right-bg-color-transparent);
+		// }
 	}
 }
