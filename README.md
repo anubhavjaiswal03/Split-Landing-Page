@@ -1,3 +1,3 @@
 # Split Landing Page
 
-![Split Landing Page](split-landing-page.png).
+![Split Landing Page](split-landing-page.gif).
